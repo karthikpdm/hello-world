@@ -14,6 +14,7 @@ pipeline {
                 git branch: 'master', url: 'https://github.com/karthikpdm/hello-world.git'
             }
         }
+      }
         
         stage('SonarQube Analysis') {
         steps{
